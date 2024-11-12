@@ -20,6 +20,7 @@ SHARED_COLUMN_NAMES = [
     "blocks",
     "turnovers",
     "personal_fouls",
+    "plus_minus",
     "game_score",
 ]
 
