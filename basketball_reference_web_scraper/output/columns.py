@@ -20,11 +20,10 @@ SHARED_COLUMN_NAMES = [
     "blocks",
     "turnovers",
     "personal_fouls",
-    "plus_minus",
     "game_score",
 ]
 
-BOX_SCORE_COLUMN_NAMES = ["slug", "name"] + SHARED_COLUMN_NAMES
+BOX_SCORE_COLUMN_NAMES = ["slug", "name"] + SHARED_COLUMN_NAMES + ["plus_minus"]
 
 PLAYER_SEASON_BOX_SCORE_COLUMN_NAMES = ["active", "date", "points_scored", "plus_minus"] + SHARED_COLUMN_NAMES
 
